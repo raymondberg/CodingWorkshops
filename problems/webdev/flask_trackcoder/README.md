@@ -24,7 +24,7 @@
 <!-- /TOC -->
 # 1. Flask Dashboard for tracking developer time
 
-Chipy's mentorship program is an extra-ordinary jounery for becoming a better developer. As a mentee, you are expected to do a lot - you read new articles/books, write code, debug and troubleshoot, pair program with other mentees in coding workshop or your mentor. This is involves managing time efficiently and doing the effective things. But as the old adage goes, "you can't manage what you can't measure".
+Chipy's mentorship program is an extra-ordinary journey for becoming a better developer. As a mentee, you are expected to do a lot - you read new articles/books, write code, debug and troubleshoot, pair program with other mentees in coding workshop or your mentor. This is involves managing time efficiently and doing the effective things. But as the old adage goes, "you can't manage what you can't measure".
 
 This project is the second of the three part series of building tools for the mentees for tracking time. The end goal of such a tool will be to aggregate anonymous data and analyze how does a typical mentee spend on blogging (b), coding (c), debugging (d), pair program (p) with mentor or other mentees.
 
@@ -49,7 +49,7 @@ In addition, you should be familiar with [Part 1](https://github.com/chicagopyth
 ## 1.2. Reference documents
 
 Reading these links before attending project night, would help you a lot by providing
-the background needed to work through the exercieses.
+the background needed to work through the exercises.
 
 - [What is a Web server](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_server)
 - [Flask Quick Start](http://flask.pocoo.org/docs/1.0/quickstart/)
@@ -113,7 +113,7 @@ If you are familiar with `git`, run
 - `app.py` - Here you will find the basic skeleton of the flask app. This is where you will be
   writing your python code for controlling the business logic of the problem.
 - `static/styles` - If you want to add static css and javascript, that goes here. [Docs](http://flask.pocoo.org/docs/1.0/tutorial/static/)
-- `templates` - This folder has the file `tasks.html` which serves as the view for your app, rendering the data on the browser. [Docs](http://flask.pocoo.org/docs/1.0/tutorial/templates/) 
+- `templates` - This folder has the file `tasks.html` which serves as the view for your app, rendering the data on the browser. [Docs](http://flask.pocoo.org/docs/1.0/tutorial/templates/)
 
 ## 1.8. Set up virtualenv
 
@@ -192,7 +192,7 @@ Add a search text box that allows the user to search with any word that might
 appear on the description of the task.
 
 Hint: Take a look at the example of Flask-WTF above. You'll also need to take
-a look at [how to do substring search](http://docs.peewee-orm.com/en/latest/peewee/query_operators.html?highlight=contains) usnig peewee.
+a look at [how to do substring search](http://docs.peewee-orm.com/en/latest/peewee/query_operators.html?highlight=contains) using peewee.
 
 ## 1.13. Add a from to add new Task from the UI
 
@@ -212,7 +212,7 @@ and you handle splitting the input into task type, minutes, description.
 
 ## 1.14. Show the total time spent by the mentee for each of the task types
 
-Find the cummulative time spent on each task type. These should be
+Find the cumulative time spent on each task type. These should be
 placed next to each other so that it is easy to compare how much time
 is devoted into each of the activity.
 
@@ -222,7 +222,7 @@ useful.
 ## 1.15. Improve the UI
 
 UI/UX is critical to keep your audience engaged. The sample template `tasks.html`, comes with
-bootstap integrated, however it does not use any additional styling yet.
+bootstrap integrated, however it does not use any additional styling yet.
 
 Here is the template from Bootrap that is used in the demo above.
 https://getbootstrap.com/docs/4.0/examples/dashboard/. It can be downloaded from https://getbootstrap.com/docs/4.0/examples/.
@@ -247,12 +247,12 @@ you want to see how much time was spent on debugging on
 hashtags is an easy way.
 
 Provide a way to aggregate the hashtags that has been used in the tasks
-and show the count next to each of them. Clicking on a particlar
+and show the count next to each of them. Clicking on a particular
 hashtag should show only the tasks that have that hashtag.
 
 # Feedback
 
-Thanks for attending this project night. We put in a lot of effor to
+Thanks for attending this project night. We put in a lot of effort to
 make this useful for you. However, we can not make it better, unless
 we hear back from you on what you want and collect data to make changes.
 Please take a few moments to fill in the small form below and help us improve it.
